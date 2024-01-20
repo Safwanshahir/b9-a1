@@ -1,28 +1,30 @@
 /* common shared styles */
-body{
+body {
     font-family: 'Merriweather', serif;
     font-family: 'Inter', sans-serif;
 }
-*{
+
+* {
     margin: 0px;
     padding: 0px;
 }
 
-.banner{
+.banner {
     width: 75%;
     max-width: 1320px;
     margin: 0 auto;
     margin-top: 50px;
-    background-image:url(/resources/Banner\ Image.png);
+    background-image: url(/resources/Banner\ Image.png);
     background-repeat: no-repeat;
     height: 600px;
     display: flex;
     justify-content: center;
     align-items: center;
     background: linear-gradient(180deg, transparent, rgb(58, 32, 29)),
-    url("/resources/Banner\ Image.png");
+        url("/resources/Banner\ Image.png");
 }
-.text1{
+
+.text1 {
     color: #FFF;
     margin-bottom: 16px;
     text-align: center;
@@ -30,9 +32,10 @@ body{
     font-size: 32px;
     font-style: normal;
     font-weight: 400;
-    
+
 }
-.text2{
+
+.text2 {
     color: #ffffff;
     text-align: center;
     font-family: Merriweather;
@@ -40,16 +43,16 @@ body{
     font-style: normal;
     font-weight: 900;
     max-width: 700px;
-    
+
 }
 
 /* .saf{ */
-    width: 1600px;
-    height: 7335px;
- }
+width: 1600px;
+height: 7335px;
+}
 
- .off{
-    
+.off {
+
     width: 802.9px;
     height: 500px;
     flex-shrink: 0;
@@ -61,7 +64,7 @@ body{
 
 }
 
-.OFF1-text{
+.OFF1-text {
     color: #F00;
     margin-top: 50px;
     text-align: center;
@@ -72,7 +75,7 @@ body{
     line-height: normal;
 }
 
-.OFF2-text{
+.OFF2-text {
     color: #F00;
     margin-top: 48px;
     text-align: center;
@@ -82,7 +85,8 @@ body{
     font-weight: 500;
     line-height: normal;
 }
-.OFF3-text{
+
+.OFF3-text {
     color: #070211;
     margin-top: 16px;
     text-align: center;
@@ -92,7 +96,8 @@ body{
     font-weight: 700;
     line-height: normal;
 }
-.off-img{
+
+.off-img {
     margin: 0 auto;
     margin-top: 50px;
     background-repeat: no-repeat;
@@ -101,6 +106,193 @@ body{
     align-items: center;
 }
 
+/* welcome section styles */
+.welcome {
+    position: relative;
+    max-width: 1320px;
+    margin: 0 auto;
+    margin-top: 150px;
+    background-image: url(/resources/Vectorrr.png);
+    background-repeat: no-repeat;
+    height: 600px;
+    background: linear-gradient(to left, transparent, rgb(58, 32, 29)),
+        url("/resources/Vectorrr.png");
 
 
+}
+
+.text .welcome-title h1 {
+    width: 642px;
+    height: 176px;
+    justify-content: left;
+    padding-top: 126px;
+    padding-left: 126px;
+    padding-right: 552px;
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 88px;
+    /* 137.5% */
+    letter-spacing: 7.04px;
+
+}
+
+.text .welcome-title p {
+    width: 697px;
+    height: 60px;
+    justify-content: left;
+    padding-left: 126px;
+    margin-top: 24px;
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    /* 166.667% */
+
+}
+
+.text .welcome-title h3 {
+    justify-content: left;
+    padding-left: 158px;
+    margin-top: 48px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.welcome-img {
+    position: absolute;
+    left: 863px;
+    top: 68px;
+}
+
+.time {
+    margin-top: 150px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px;
+    /* 175% */
+    text-transform: capitalize;
+}
+
+.time .red-text {
+    color: #F00;
+}
+
+.btn-join {
+    border-radius: 8px;
+    background: #F00;
+    display: inline-flex;
+    padding: 16px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-top: 64px;
+}
+
+.coming {
+    padding-top: 150px;
+    max-width: 1320px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1320px;
+    margin: 0 auto;
+
+}
+
+.left-text {
+    text-align: left;
+}
+
+.nbo {
+
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.cs {
+    margin-top: 24px;
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.dolor {
+    margin-top: 24px;
+    width: 393px;
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    /* 160% */
+}
+
+.coming .cs-picture {
+
+    position: absolute;
+    text-align: center;
+    width: 364.844px;
+    height: 364.844px;
+    flex-shrink: 0;
+    border-radius: 364.844px;
+    background: url(resources/Ellipse 1.png), lightgray -91.279px 0px / 150.038% 100% no-repeat;
+
+}
+
+.right-text {
+    text-align: right;
+
+}
+
+.righttext-paragraph1 {
+    color: #F00;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.righttext-paragraph2 {
+   
+    width: 276px;
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    /* 160% */
+}
 
