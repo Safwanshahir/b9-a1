@@ -223,6 +223,7 @@ height: 7335px;
 
 .left-text {
     text-align: left;
+    margin-top: 100px;
 }
 
 .nbo {
@@ -259,23 +260,23 @@ height: 7335px;
 }
 
 .coming .cs-picture {
-
     position: absolute;
-    text-align: center;
-    width: 364.844px;
-    height: 364.844px;
-    flex-shrink: 0;
+    display: block;
+    margin-left: 500px;
+    border: 15px solid red;
+    padding: 30px;
     border-radius: 364.844px;
-    background: url(resources/Ellipse 1.png), lightgray -91.279px 0px / 150.038% 100% no-repeat;
+
 
 }
 
 .right-text {
     text-align: right;
+    margin-top: 100px;
 
 }
 
-.righttext-paragraph1 {
+.right-text-paragraph1 {
     color: #F00;
     font-family: Inter;
     font-size: 48px;
@@ -284,8 +285,8 @@ height: 7335px;
     line-height: normal;
 }
 
-.righttext-paragraph2 {
-   
+.right-text-paragraph2 {
+    margin-top: 10px;
     width: 276px;
     color: rgba(7, 2, 17, 0.60);
     font-family: Inter;
@@ -295,4 +296,106 @@ height: 7335px;
     line-height: 32px;
     /* 160% */
 }
+
+.hn-year {
+    margin-top: 50px;
+    width: 140px;
+    height: 140px;
+    flex-shrink: 0;
+    padding-bottom: 70px;
+}
+
+.holidays {
+    padding-top: 150px;
+    max-width: 1320px;
+    position: relative;
+    max-width: 1320px;
+    margin: 0 auto;
+}
+
+.holidays-section-text {
+    text-align: center;
+
+}
+
+.wif {
+    color: #070211;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.holi-sale {
+    margin-top: 10px;
+    color: #F00;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+
+}
+
+.holi-sale .sale-red {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+
+}
+
+.hp {
+    margin-top: 28px;
+    padding: 10px 10px;
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+    /* 160% */
+}
+
+
+.red-picture {
+    position: absolute;
+    margin-top: 500px;
+}
+
+.box-picutre {
+    position: absolute;
+    padding-top: 70px;
+    padding: left 30px;
+
+}
+
+.female-picture {
+    position: absolute;
+    padding-top: 67px;
+    margin-left: 891px;
+}
+
+.discount-picture {
+    position: absolute;
+    padding-top: 160px;
+    margin-left: 700px;
+}
+
+.giftpart{
+    padding-top: 150px;
+    max-width: 1320px;
+    max-width: 1320px;
+    margin: 0 auto;
+
+}
+
+
+
+
 
