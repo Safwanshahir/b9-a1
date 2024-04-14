@@ -306,6 +306,7 @@ height: 7335px;
 }
 
 .holidays {
+    height: 900px;
     padding-top: 150px;
     max-width: 1320px;
     position: relative;
@@ -387,15 +388,279 @@ height: 7335px;
     margin-left: 700px;
 }
 
-.giftpart{
+.giftpart {
+    position: relative;
     padding-top: 150px;
     max-width: 1320px;
     max-width: 1320px;
     margin: 0 auto;
+    height: 1300px;
 
 }
 
+.gift-text1 {
+    position: absolute;
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0%;
+    text-align: left;
+}
 
+.gift-text2 {
+    position: absolute;
+    padding-top: 50px;
+    color: rgb(7, 2, 17);
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 60px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: capitalize;
+}
 
+.gift-text3 {
+    width: 890px;
+    height: 64px;
+    margin-top: 127px;
+    position: absolute;
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-align: left;
+}
 
+.giftfist3img {
+    position: absolute;
+    margin-top: 230px;
+}
+
+.giftlast3img {
+    position: absolute;
+    margin-top: 700px;
+}
+
+.cribe {
+    position: relative;
+    width: 1320px;
+    height: 616px;
+    margin: 0 auto;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+}
+
+.mailbox {
+    position: absolute;
+    left: 585px;
+    right: 585px;
+    top: 79.93px;
+}
+
+.mail-text {
+    position: absolute;
+    text-align: center;
+    left: 212px;
+    right: 212px;
+    top: 273px;
+}
+
+.mail-text1 {
+    position: absolute;
+    color: rgb(7, 2, 17);
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    left: 212px;
+    right: 212px;
+    width: 512px;
+}
+
+.mail-text2 {
+    position: absolute;
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    width: 896px;
+    margin-top: 87px;
+}
+
+.sufiled {
+    position: absolute;
+    text-align: center;
+    left: 336px;
+    right: 336px;
+    top: 464px;
+}
+
+.btn-sub {
+    position: absolute;
+    height: 72px;
+    width: 210px;
+    height: 72px;
+    right: 10px;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    text-transform: capitalize;
+    border-radius: 0px 50px 50px 0px;
+    background: rgb(255, 0, 0);
+}
+
+.field {
+    position: absolute;
+    height: 72px;
+    width: 416px;
+    height: 72px;
+    left: 10px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    text-transform: capitalize;
+    border-radius: 50px 0px 0px 50px;
+}
+
+.big {
+    position: absolute;
+    width: 1600px;
+    height: 609px;
+    left: 0;
+    right: 0;
+    top: 6726.07px;
+    margin: 0 auto;
+    background: rgb(7, 2, 17);
+}
+
+.big-text1 {
+    position: absolute;
+    width: 375px;
+    height: 80px;
+    top: 120px;
+    bottom: 409px;
+    left: 140px;
+    right: 1085px;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.line1 {
+    position: absolute;
+    width: 1320px;
+    height: 0;
+    left: 140px;
+    right: 140px;
+    top: 250px;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.line2 {
+    position: absolute;
+    width: 1320px;
+    height: 0;
+    left: 140px;
+    right: 140px;
+    top: 409px;
+    bottom: 199px;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.big-text2 {
+    position: absolute;
+    width: 295px;
+    height: 29px;
+    left: 140px;
+    top: 460px;
+    bottom: 120px;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+}
+
+.big-text3img {
+    position: absolute;
+    left: 1076px;
+    top: 131px;
+}
+
+.big-text3 {
+    position: absolute;
+    left: 1116px;
+    top: 125px;
+    width: 195px;
+    height: 40px;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+.big-text4img {
+    position: absolute;
+    left: 1076px;
+    top: 175px;
+}
+
+.big-text4 {
+    position: absolute;
+    left: 1116px;
+    top: 165px;
+    width: 195px;
+    height: 40px;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+.facebook-img {
+    position: absolute;
+    left: 640px;
+    top: 298px;
+}
+
+.instagram-img{
+    position: absolute;
+    left: 743px;
+    top: 298px;
+}
+
+.twitter-img{
+    position: absolute;
+    left: 829px;
+    top: 298px;
+}
+
+.linkedin-img{
+    position: absolute;
+    left: 904px;
+    top: 298px;
+}
+
+.big-text5{
+    position: absolute;
+    left: 1315px;
+    top: 460px;
+    width: 195px;
+    height: 40px;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+
+}
 
